@@ -1,0 +1,147 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Android Studio specific
+.idea/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/gradle.xml
+.idea/dictionaries/
+.idea/tasks.xml
+.idea/codestyles/
+.idea/caches/
+.idea/vcs.xml
+.idea/misc.xml
+.idea/runConfigurations/
+.idea/navigation.xml
+
+# Keystore files
+*.jks
+*.keystore
+
+# Local configuration file (SDK path, etc)
+local.properties
+
+# Log files
+*.log
+
+# Android specific
+.gradle/
+build/
+captures/
+output.json
+
+# Gradle files
+.gradle/
+**/build/
+!gradle-wrapper.jar
+.gradle/cache/
+.gradle/daemon/
+.gradle/notifications/
+.gradle/vcs-1/
+.gradle/workerMain/
+.gradle/buildOutputCleanup/
+.gradle/6.0/fileHashes/fileHashes.bin
+.gradle/6.0/fileHashes/fileHashes.lock
+.gradle/6.0/fileHashes/resourceHashesCache.bin
+
+# Gradle project files
+.gradle/
+build/
+gradle/
+gradlew
+gradlew.bat
+gradle.properties
+gradle-wrapper.properties
+gradle-wrapper.jar
+gradle/
+settings.gradle
+settings.gradle.kts
+.gradle/
+build/
+captures/
+
+# Proguard files
+*.mapping
+*.mmapping
+
+# APK/Bundle files
+*.apk
+*.aab
+
+# NDK files
+.obj/
+.libs/
+
+# External native build files
+.cxx/
+
+# IntelliJ files
+*.iml
+.idea/
+*.ipr
+*.iws
+.idea/workspace.xml
+.idea/gradle.xml
+.idea/libraries
+.idea/modules.xml
+.idea/.name
+.idea/caches/
+.idea/jsLibraryMappings.xml
+.idea/dictionaries/
+.idea/tasks.xml
+.idea/misc.xml
+.idea/vcs.xml
+
+# JetBrains files
+/.idea/**/workspace.xml
+/.idea/**/tasks.xml
+/.idea/**/usage.statistics.xml
+/.idea/**/gradle.xml
+/.idea/**/modules.xml
+/.idea/**/libraries
+/.idea/**/runConfigurations
+
+# Ignore generated files
+build/
+captures/
+output.json
+
+# Ignore Gradle logs
+.gradle/
+local.properties
+.gradle/local.properties
+.gradle/gradle.properties
+.gradle/buildOutputCleanup/
+
+# Ignore build artifacts
+*.ap_
+*.apk
+*.aab
+*.ap_
+*.apks
+*.ap_
+*.bat
+*.zip
+*.tar
+
+# Ignore unnecessary files
+*.class
+*.dSYM/
+*.ec
+*.orig
