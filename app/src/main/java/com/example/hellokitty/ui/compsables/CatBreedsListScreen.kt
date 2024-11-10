@@ -17,6 +17,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -153,8 +154,8 @@ fun SuccessState(data: CatBreedsListUiData, onEvent: (CatBreedsListEvent) -> Uni
                 style = Typography.headlineLarge
             )
         }
-        items(data.catBreeds.size) { index ->
-            CatBreedListItem(data.catBreeds[index], onEvent)
+        items(data.catBreeds, key = { it.id }) { catBreed ->
+            CatBreedListItem(catBreed, onEvent)
         }
     }
 }
